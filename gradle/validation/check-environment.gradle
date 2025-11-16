@@ -20,10 +20,6 @@
 
 import org.gradle.util.GradleVersion
 
-configure(rootProject) {
-  ext {
-    expectedGradleVersion = '8.4'
-  }
 
   wrapper {
     distributionType = Wrapper.DistributionType.ALL
